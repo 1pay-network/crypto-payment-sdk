@@ -17,7 +17,7 @@ This repository is a complete example of setting up Crypto Payment for a website
   <script>
     const onepaySuccess = (PaymentResponse) => {
       console.log(PaymentResponse)
-      // (optinal)
+      // (optional)
       // here you can send PaymentResponse to your server
       // then use API Re-check Transaction of 1PAY to verify payment
       // this will improve the security of the payment process
